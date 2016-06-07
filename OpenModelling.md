@@ -6,7 +6,7 @@ In environmental sciences numeric models play an important role supporting decis
 For example, models are often calibrated by changing parameter values manually using a trial-and-error method (e.g. [Anibas et al. 2009](http://dx.doi.org/10.1002/hyp.7289)). 
 This makes it challenging to document how the modelling software was used, which is a prerequisite for making the applied methodology transparent and thus the whole modelling process reproducible.
 
-Automatisation by means of programming can improve the modelling process. Once a methodology is implemented in the form of program code it is inherently documented. The code can be run repeatedly and will always produce the same results given the same inputs.
+Automatation by means of programming can improve the modelling process. Once a methodology is implemented in the form of program code it is inherently documented. The code can be run repeatedly and will always produce the same results given the same inputs.
 
 We used R as programming language to automate the modelling workflow.
 
