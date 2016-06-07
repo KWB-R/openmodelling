@@ -64,7 +64,7 @@ img {
 <div id="openmodelling" class="section level1">
 <h1>OpenModelling</h1>
 <div id="reproducibility-transparency-automatisation" class="section level2">
-<h2>Reproducibility = Transparency + Automatisation</h2>
+<h2>Reproducibility = Transparency + Automatation</h2>
 <p>Combining <strong>transparency</strong> (e.g. by using open data, models &amp; software) with <strong>automatisation</strong> (replacing manual steps by programming) leads to <strong>reproducible results</strong>.</p>
 <p>How this can be achieved is shown for a first case study below:</p>
 <div id="case-study-environmental-modelling" class="section level3">
@@ -74,7 +74,7 @@ img {
 <div id="kompetenzzentrum-wasser-berlin-ggmbh" class="section level5">
 <h5><a href="http://kompetenz-wasser.de">Kompetenzzentrum Wasser Berlin gGmbH</a></h5>
 <p>In environmental sciences numeric models play an important role supporting decision making. Usually, the modelling procedure (parameterisation, calibration, validation, scenario analysis) includes manual steps. For example, models are often calibrated by changing parameter values manually using a trial-and-error method (e.g. <a href="http://dx.doi.org/10.1002/hyp.7289">Anibas et al. 2009</a>). This makes it challenging to document how the modelling software was used, which is a prerequisite for making the applied methodology transparent and thus the whole modelling process reproducible.</p>
-<p>Automatisation by means of programming can improve the modelling process. Once a methodology is implemented in the form of program code it is inherently documented. The code can be run repeatedly and will always produce the same results given the same inputs.</p>
+<p>Automatation by means of programming can improve the modelling process. Once a methodology is implemented in the form of program code it is inherently documented. The code can be run repeatedly and will always produce the same results given the same inputs.</p>
 <p>We used R as programming language to automate the modelling workflow.</p>
 <p>Different models have been ‘wrapped’ by means of R packages (<a href="http://dx.doi.org/10.13140/RG.2.1.2140.3683">Sonnenberg et al. 2014</a>): <a href="http://pubs.usgs.gov/sir/2010/5102/support/sir2010-5102.pdf">Hantush (1967)</a> equation (groundwater mounding beneath an infiltration basin), <a href="http://wwwbrr.cr.usgs.gov/projects/GW_Unsat/vs2di1.3/index.html">VS2DI</a> (groundwater flow, heat and solute transport), <a href="http://water.usgs.gov/ogw/wtaq/">WTAQ-2</a> (well drawdown), <a href="http://www2.epa.gov/water-research/epanet">EPANET</a> (pressurised pipe networks) and <a href="http://doi.org/10.1080/15730620801939398">Gompitz</a> (sewer ageing).</p>
 <p>These models can now be configured and run from within the R environment. This allows to use R’s excellent functions for retrieving and preparing input data (e.g. monitoring, geographical data) as well as analysing and plotting simulation results and generating reports.</p>
